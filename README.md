@@ -13,7 +13,6 @@ A rule-based QA web app that generates structured API test cases from endpoint d
 - Copy generated cases as Markdown
 - Export generated cases as CSV
 - Fully client-side with no backend and no paid APIs
-- Ready to deploy to Vercel
 
 ## Tech Stack
 
@@ -105,11 +104,11 @@ Preview the production build:
 npm run preview
 ```
 
-## Deploy to Vercel
+## Deployment
 
-1. Push the project to GitHub.
-2. Import the repository in Vercel.
-3. Keep the default Vite settings:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-4. Deploy.
+The app is deployed on Vercel from the GitHub repository:
+
+```text
+https://api-tc-generator-app.vercel.app/
+```
+

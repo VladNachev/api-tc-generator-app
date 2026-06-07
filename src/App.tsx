@@ -83,11 +83,6 @@ function App() {
               Generate structured API test cases from endpoint details, payload fields, authentication, response expectations, and business rules.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-2 text-center text-xs font-semibold text-slate-600 sm:min-w-80">
-            <span className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">Client-side</span>
-            <span className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">No API keys</span>
-            <span className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">Vercel-ready</span>
-          </div>
         </div>
       </header>
 
